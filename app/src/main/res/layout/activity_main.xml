@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#D397DA"
+    >
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="start"
+        android:src="@drawable/ic_cancer" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:padding="8dp"
+        android:layout_marginHorizontal="15dp"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:text="This application informs you about the blemish on your skin with the image taken from your camera. It is definitely not a doctor's diagnosis." />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="60dp"
+        android:onClick="jump"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:background="@drawable/button_shape"
+        android:text="Next" />
+
+
+    <TextView
+        android:id="@+id/hospital_nav_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="10dp"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:textAlignment="textEnd"
+        android:onClick="goToHospital"
+        android:text="Take me to the nearest hospital" />
+
+
+
+
+
+
+
+</LinearLayout>

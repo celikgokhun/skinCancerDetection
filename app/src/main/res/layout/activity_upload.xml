@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D397DA"
+    tools:context=".UploadActivity">
+
+
+
+    <ImageView
+        android:id="@+id/postImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:src="@drawable/ic_cancer"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:layout_marginHorizontal="15dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textStyle="italic|bold"
+        android:textAlignment="textStart"
+        android:text="-Take care that the environment is well lighted." />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:layout_marginHorizontal="15dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textStyle="italic|bold"
+        android:textAlignment="textStart"
+        android:text="-Hold the phone steady." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:layout_marginHorizontal="15dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textStyle="italic|bold"
+        android:textAlignment="textStart"
+        android:text="-Macro lens using is recomended." />
+
+
+    <Button
+        android:id="@+id/take_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:onClick="selectImage"
+        android:textColor="#fff"
+        android:background="@drawable/button_shape"
+        android:text="Let's Start" />
+
+
+    <Button
+        android:id="@+id/result_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="25dp"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:onClick="jumpToResult"
+        android:textColor="#fff"
+        android:background="@drawable/button_shape"
+        android:text="See Results" />
+
+
+
+
+
+
+
+
+</LinearLayout>
